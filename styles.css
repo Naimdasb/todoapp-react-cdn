@@ -1,0 +1,119 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+  
+  }
+  
+  body {
+    margin: 0;
+    background-color: hsl(197, 100%, 80%);
+  }
+  
+  .todo_app {
+    
+    background-color: hsl(197, 100%, 50%);
+    color: white;
+    padding: 2em;
+    border-radius: 10px;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-top: 100px;  
+  }
+  
+  .lists {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  
+  .title {
+    font-size: 1.7em;
+    border-bottom: solid 1px white;
+  }
+  
+  .todo {
+    border: solid 1px white;
+    padding:  0 2em 2em 2em;
+    margin: 2em;
+    width: 300px;
+    border-radius: 10px; 
+    
+  }
+  
+  h1 {
+    margin: 0.5em;
+    font-size: 3em;
+    text-align:center;
+    border-bottom: solid 1px white; 
+  }
+  
+  .inputs {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    flex-wrap: wrap;
+  }
+  
+  .text {
+    font-size: 1.4em;
+    background-color: hsl(197, 100%, 55%);
+    border-radius: 10px;
+    outline: none;
+    border: solid 1px white;
+    color: white;
+    padding: 0.5em;
+    margin-right: 1em;
+  }
+  
+  .add {
+    background-color: hsl(197, 100%, 55%);
+    outline: none;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.4em;
+    padding: 0.5em;
+  }
+  
+  .add:hover {
+     background-color: hsl(197, 100%, 60%);
+     cursor: pointer;
+  }
+  
+  .item_btn {
+    background-color: hsl(197, 100%, 50%);
+    outline: none;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1em;
+    padding: 0.4em;
+    margin-left: 10px;
+  }
+  
+  .item_btn:hover {
+     background-color: hsl(197, 100%, 60%);
+     cursor: pointer;
+  }
+  
+  .done {
+     text-decoration: line-through;
+  }
+  
+  @media (max-width: 700px) {
+    .todo_app {
+       width: 80%;
+    }
+    
+    .add {
+      margin-top: 1em;
+    }
+    
+    .text {
+      margin: auto;
+    }
+  }
